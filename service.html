@@ -1,1 +1,376 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImphIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPTk2MCI+Cjx0aXRsZT5BWFJPU1Mg44K144O844OT44K56LOH5paZPC90aXRsZT4KPGxpbmsgcmVsPSJwcmVjb25uZWN0IiBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tIj4KPGxpbmsgcmVsPSJwcmVjb25uZWN0IiBocmVmPSJodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tIiBjcm9zc29yaWdpbj4KPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Ob3RvK1NhbnMrSlA6d2dodEAzMDA7NDAwOzUwMDs2MDA7NzAwOzgwMDs5MDAmZGlzcGxheT1zd2FwIiByZWw9InN0eWxlc2hlZXQiPgo8c3R5bGU+CiAgKiwgKjo6YmVmb3JlLCAqOjphZnRlciB7IG1hcmdpbjogMDsgcGFkZGluZzogMDsgYm94LXNpemluZzogYm9yZGVyLWJveDsgfQogIDpyb290IHsKICAgIC0tbmF2eTogIzFCMkQ0NTsgLS1vcmFuZ2U6ICNFMDdCM0M7IC0tYmc6ICNGQUZBRjg7IC0tY2FyZDogI0YwRjJGNTsKICAgIC0tdGV4dC1tYWluOiAjMUIyRDQ1OyAtLXRleHQtYm9keTogIzVBNkE3QTsgLS10ZXh0LWNhcHRpb246ICM4QTlBQjA7CiAgICAtLXdhcm4tYmc6ICNGREYyRUM7IC0tYm9yZGVyOiAjRDNEMUM3OwogICAgLS1mb250LWhlYWRpbmc6ICdZdSBHb3RoaWMgTWVkaXVtJywnWXUgR290aGljJywnWXVHb3RoaWMnLCfmuLjjgrTjgrfjg4Pjgq8gTWVkaXVtJywn5ri444K044K344OD44Kv5L2TJywnTm90byBTYW5zIEpQJyxzYW5zLXNlcmlmOwogICAgLS1mb250LWJvZHk6ICdOb3RvIFNhbnMgSlAnLCdZdSBHb3RoaWMnLCdZdUdvdGhpYycsc2Fucy1zZXJpZjsKICB9CiAgaHRtbCB7IGZvbnQtc2l6ZTogMTZweDsgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7IH0KICBib2R5IHsgZm9udC1mYW1pbHk6IHZhcigtLWZvbnQtYm9keSk7IGJhY2tncm91bmQ6ICNlOGU4ZTg7IGNvbG9yOiB2YXIoLS10ZXh0LWJvZHkpOwogICAgbGluZS1oZWlnaHQ6IDEuODsgZm9udC13ZWlnaHQ6IDQwMDsgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7IH0KICAucGFnZSB7IHdpZHRoOiA5NjBweDsgaGVpZ2h0OiA1NDBweDsgbWFyZ2luOiAzNnB4IGF1dG87IGJhY2tncm91bmQ6IHZhcigtLWJnKTsKICAgIHBhZGRpbmc6IDQ4cHggNjRweDsgcG9zaXRpb246IHJlbGF0aXZlOyBvdmVyZmxvdzogaGlkZGVuOwogICAgYm94LXNoYWRvdzogMCA0cHggMzJweCByZ2JhKDI3LDQ1LDY5LDAuMTMpLCAwIDFweCA2cHggcmdiYSgyNyw0NSw2OSwwLjA3KTsKICAgIGJvcmRlci1yYWRpdXM6IDRweDsgfQogIC5wYWdlOmZpcnN0LWNoaWxkIHsgbWFyZ2luLXRvcDogMzZweDsgfQogIC5wYWdlOmxhc3QtY2hpbGQgeyBtYXJnaW4tYm90dG9tOiAzNnB4OyB9CiAgLnRvcC1zdHJpcGUgeyBwb3NpdGlvbjogYWJzb2x1dGU7IHRvcDogMDsgbGVmdDogMDsgcmlnaHQ6IDA7IGhlaWdodDogNHB4OwogICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCB2YXIoLS1uYXZ5KSA2NSUsIHZhcigtLW9yYW5nZSkgNjUlKTsgfQogIC5oZWFkZXItY2FyZCB7IGJhY2tncm91bmQ6ICNmZmY7IGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICBib3gtc2hhZG93OiAwIDJweCAyMHB4IHJnYmEoMjcsNDUsNjksMC4wOSksIDAgMXB4IDRweCByZ2JhKDI3LDQ1LDY5LDAuMDQpOwogICAgcGFkZGluZzogMTFweCAyNHB4OyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBtYXJnaW4tYm90dG9tOiAyMHB4OwogICAgYm9yZGVyLWxlZnQ6IDRweCBzb2xpZCB2YXIoLS1vcmFuZ2UpOyB9CiAgLmhjLWxhYmVsIHsgZm9udC1mYW1pbHk6IHZhcigtLWZvbnQtaGVhZGluZyk7IGZvbnQtc2l6ZTogMjBweDsgZm9udC13ZWlnaHQ6IDcwMDsKICAgIGNvbG9yOiB2YXIoLS1vcmFuZ2UpOyBsZXR0ZXItc3BhY2luZzogMC4wNmVtOyBwYWRkaW5nLXJpZ2h0OiAyMHB4OyBmbGV4LXNocmluazogMDsgfQogIC5oYy1kaXYgeyB3aWR0aDogMXB4OyBoZWlnaHQ6IDMwcHg7IGJhY2tncm91bmQ6IHZhcigtLWJvcmRlcik7IGZsZXgtc2hyaW5rOiAwOyBtYXJnaW4tcmlnaHQ6IDIwcHg7IH0KICAuaGVhZGVyLWNhcmQgaDIgeyBmb250LWZhbWlseTogdmFyKC0tZm9udC1oZWFkaW5nKTsgZm9udC1zaXplOiAyMXB4OyBmb250LXdlaWdodDogNzAwOwogICAgY29sb3I6IHZhcigtLXRleHQtbWFpbik7IG1hcmdpbjogMDsgbGluZS1oZWlnaHQ6IDEuNDsgfQogIGgxLCBoMiwgaDMgeyBmb250LWZhbWlseTogdmFyKC0tZm9udC1oZWFkaW5nKTsgZm9udC13ZWlnaHQ6IDcwMDsgY29sb3I6IHZhcigtLXRleHQtbWFpbik7IH0KPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KCjwhLS0gUEFHRSAxOiDooajntJkgLS0+CjxkaXYgY2xhc3M9InBhZ2UiIGlkPSJwYWdlLTEiPgogIDxkaXYgY2xhc3M9InRvcC1zdHJpcGUiPjwvZGl2PgogIDxkaXYgc3R5bGU9InBvc2l0aW9uOmFic29sdXRlO3dpZHRoOjI0MHB4O2hlaWdodDoyNDBweDtib3JkZXItcmFkaXVzOjUwJTtib3JkZXI6MS41cHggc29saWQgcmdiYSgyNyw0NSw2OSwwLjA0KTt0b3A6LTUwcHg7bGVmdDotNzBweDt6LWluZGV4OjA7cG9pbnRlci1ldmVudHM6bm9uZTsiPjwvZGl2PgogIDxkaXYgc3R5bGU9InBvc2l0aW9uOmFic29sdXRlO3dpZHRoOjE2MHB4O2hlaWdodDoxNjBweDtib3JkZXItcmFkaXVzOjUwJTtib3JkZXI6MS41cHggc29saWQgcmdiYSgyMjQsMTIzLDYwLDAuMDYpO2JvdHRvbTotMzBweDtyaWdodDo5MHB4O3otaW5kZXg6MDtwb2ludGVyLWV2ZW50czpub25lOyI+PC9kaXY+CiAgPGRpdiBzdHlsZT0icG9zaXRpb246YWJzb2x1dGU7d2lkdGg6NTJweDtoZWlnaHQ6NTJweDtiYWNrZ3JvdW5kLWltYWdlOnJhZGlhbC1ncmFkaWVudChjaXJjbGUsdmFyKC0tbmF2eSkgMS4ycHgsdHJhbnNwYXJlbnQgMS4ycHgpO2JhY2tncm91bmQtc2l6ZToxMHB4IDEwcHg7dG9wOjUycHg7cmlnaHQ6NjRweDtvcGFjaXR5OjAuNDt6LWluZGV4OjA7cG9pbnRlci1ldmVudHM6bm9uZTsiPjwvZGl2PgogIDxkaXYgc3R5bGU9InBvc2l0aW9uOmFic29sdXRlO3dpZHRoOjUycHg7aGVpZ2h0OjUycHg7YmFja2dyb3VuZC1pbWFnZTpyYWRpYWwtZ3JhZGllbnQoY2lyY2xlLHZhcigtLW5hdnkpIDEuMnB4LHRyYW5zcGFyZW50IDEuMnB4KTtiYWNrZ3JvdW5kLXNpemU6MTBweCAxMHB4O2JvdHRvbTo2NHB4O2xlZnQ6NDRweDtvcGFjaXR5OjAuMjg7ei1pbmRleDowO3BvaW50ZXItZXZlbnRzOm5vbmU7Ij48L2Rpdj4KICA8ZGl2IHN0eWxlPSJoZWlnaHQ6MTAwJTtkaXNwbGF5OmZsZXg7ZmxleC1kaXJlY3Rpb246Y29sdW1uO2p1c3RpZnktY29udGVudDpjZW50ZXI7YWxpZ24taXRlbXM6Y2VudGVyO3RleHQtYWxpZ246Y2VudGVyO3Bvc2l0aW9uOnJlbGF0aXZlO3otaW5kZXg6MTsiPgogICAgPGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6dmFyKC0tZm9udC1oZWFkaW5nKTtmb250LXNpemU6MTNweDtmb250LXdlaWdodDo3MDA7bGV0dGVyLXNwYWNpbmc6MC41ZW07Y29sb3I6dmFyKC0tbmF2eSk7b3BhY2l0eTowLjQ7bWFyZ2luLWJvdHRvbTozNnB4OyI+QVhST1NTPC9kaXY+CiAgICA8aDEgc3R5bGU9ImZvbnQtc2l6ZTozOHB4O2xpbmUtaGVpZ2h0OjEuNDU7Y29sb3I6dmFyKC0tdGV4dC1tYWluKTttYXJnaW4tYm90dG9tOjE2cHg7Ij7lv5njgZfjgYznta3llrbogIXjgavjgIE8c3BhbiBzdHlsZT0iY29sb3I6dmFyKC0tb3JhbmdlKTsiPkFJ44Go44GE44GG5Y+z6IWVPC9zcGFuPuOCkuOAgjwvaDE+CiAgICA8cCBzdHlsZT0iZm9udC1zaXplOjE1cHg7Y29sb3I6dmFyKC0tdGV4dC1ib2R5KTtsaW5lLWhlaWdodDoxLjg1OyI+5q+O5pelOOOBruS9nOalt+OCkuiHquWLleWMluOBl+OBgei9kuS4iuOBuOWMluS7reaJk+OBvuOBp+S4gOawl+mAmuiyq+OBruBJ5bCO5YWl5pSv5o+0PC9wPgogIDwvZGl2Pgo8L2Rpdj4KCjwvYm9keT4KPC9odG1sPg==
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=960">
+<title>AXROSS サービス資料</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --navy: #1B2D45; --orange: #E07B3C; --bg: #FAFAF8; --card: #F0F2F5;
+    --text-main: #1B2D45; --text-body: #5A6A7A; --text-caption: #8A9AB0;
+    --warn-bg: #FDF2EC; --border: #D3D1C7;
+    --font-heading: 'Yu Gothic Medium','Yu Gothic','YuGothic','游ゴシック Medium','游ゴシック体','Noto Sans JP',sans-serif;
+    --font-body: 'Noto Sans JP','Yu Gothic','YuGothic',sans-serif;
+  }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body { font-family: var(--font-body); background: #e8e8e8; color: var(--text-body);
+    line-height: 1.8; font-weight: 400; -webkit-font-smoothing: antialiased; }
+  .page { width: 960px; height: 540px; margin: 36px auto; background: var(--bg);
+    padding: 48px 64px; position: relative; overflow: hidden;
+    box-shadow: 0 4px 32px rgba(27,45,69,0.13), 0 1px 6px rgba(27,45,69,0.07);
+    border-radius: 4px; }
+  .page:first-child { margin-top: 36px; }
+  .page:last-child { margin-bottom: 36px; }
+  .top-stripe { position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(to right, var(--navy) 65%, var(--orange) 65%); }
+  .header-card { background: #fff; border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(27,45,69,0.09), 0 1px 4px rgba(27,45,69,0.04);
+    padding: 11px 24px; display: flex; align-items: center; margin-bottom: 20px;
+    border-left: 4px solid var(--orange); }
+  .hc-label { font-family: var(--font-heading); font-size: 20px; font-weight: 700;
+    color: var(--orange); letter-spacing: 0.06em; padding-right: 20px; flex-shrink: 0; }
+  .hc-div { width: 1px; height: 30px; background: var(--border); flex-shrink: 0; margin-right: 20px; }
+  .header-card h2 { font-family: var(--font-heading); font-size: 21px; font-weight: 700;
+    color: var(--text-main); margin: 0; line-height: 1.4; }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: 700; color: var(--text-main); }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: 表紙 -->
+<div class="page" id="page-1">
+  <div class="top-stripe"></div>
+  <div style="position:absolute;width:240px;height:240px;border-radius:50%;border:1.5px solid rgba(27,45,69,0.04);top:-50px;left:-70px;z-index:0;pointer-events:none;"></div>
+  <div style="position:absolute;width:160px;height:160px;border-radius:50%;border:1.5px solid rgba(224,123,60,0.06);bottom:-30px;right:90px;z-index:0;pointer-events:none;"></div>
+  <div style="position:absolute;width:52px;height:52px;background-image:radial-gradient(circle,var(--navy) 1.2px,transparent 1.2px);background-size:10px 10px;top:52px;right:64px;opacity:0.4;z-index:0;pointer-events:none;"></div>
+  <div style="position:absolute;width:52px;height:52px;background-image:radial-gradient(circle,var(--navy) 1.2px,transparent 1.2px);background-size:10px 10px;bottom:64px;left:44px;opacity:0.28;z-index:0;pointer-events:none;"></div>
+  <div style="height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;z-index:1;">
+    <div style="font-family:var(--font-heading);font-size:13px;font-weight:700;letter-spacing:0.5em;color:var(--navy);opacity:0.4;margin-bottom:36px;">AXROSS</div>
+    <h1 style="font-size:38px;line-height:1.45;color:var(--text-main);margin-bottom:16px;">忙しい経営者に、<span style="color:var(--orange);">AIという右腕</span>を。</h1>
+    <p style="font-size:15px;color:var(--text-body);line-height:1.85;">毎日の作業を自動化し、売上UPに集中できる仕組みを作ります。<br>全業種対応・ヒアリングから現場定着まで一気通貫のAI導入支援。</p>
+  </div>
+</div>
+
+<!-- PAGE 2: 課題 -->
+<div class="page" id="page-2">
+  <div class="top-stripe"></div>
+  <div class="header-card" style="margin-bottom:32px;"><span class="hc-label">よくある悩み</span><div class="hc-div"></div><h2>多くの経営者が抱える、3つの課題</h2></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+    <div style="background:var(--card);border-radius:10px;padding:28px 20px;">
+      <div style="font-size:44px;font-weight:900;color:var(--orange);letter-spacing:0.02em;line-height:1;margin-bottom:16px;font-family:var(--font-heading);">01</div>
+      <div style="font-family:var(--font-heading);font-size:14px;font-weight:700;color:var(--text-main);line-height:1.5;margin-bottom:8px;">リソースが足りず、<br>やりたいことが後回し</div>
+      <div style="font-size:12.5px;color:var(--text-body);line-height:1.7;">やりたいことも、試したいアイデアも頭の中にある。でも毎日の雑務や管理業務に時間を取られ、コア業務に集中できない。</div>
+    </div>
+    <div style="background:var(--card);border-radius:10px;padding:28px 20px;">
+      <div style="font-size:44px;font-weight:900;color:var(--orange);letter-spacing:0.02em;line-height:1;margin-bottom:16px;font-family:var(--font-heading);">02</div>
+      <div style="font-family:var(--font-heading);font-size:14px;font-weight:700;color:var(--text-main);line-height:1.5;margin-bottom:8px;">AIを活用したいけど、<br>上手く使いこなせてない</div>
+      <div style="font-size:12.5px;color:var(--text-body);line-height:1.7;">AIが凄いのはわかってる。ただどの業務に・どう活用すれば良いかわからず、資料作成などの表面的な使い方しかできていない。</div>
+    </div>
+    <div style="background:var(--card);border-radius:10px;padding:28px 20px;">
+      <div style="font-size:44px;font-weight:900;color:var(--orange);letter-spacing:0.02em;line-height:1;margin-bottom:16px;font-family:var(--font-heading);">03</div>
+      <div style="font-family:var(--font-heading);font-size:14px;font-weight:700;color:var(--text-main);line-height:1.5;margin-bottom:8px;">周りがAIを使い始めていて、<br>差をつけられるのが怖い</div>
+      <div style="font-size:12.5px;color:var(--text-body);line-height:1.7;">半年前まで同じ立場だった同業者がAIを活用し、一人でこなせる仕事量を大きく伸ばしている。</div>
+    </div>
+  </div>
+  <div style="margin-top:32px;padding:16px 24px;background:var(--warn-bg);border-left:4px solid var(--orange);border-radius:0 8px 8px 0;font-size:15px;font-weight:700;color:var(--text-main);">
+    この3つの課題をまとめて解決するのが、<span style="color:var(--orange);">AXROSS</span> です。
+  </div>
+</div>
+
+<!-- PAGE 3: AXROSSとは -->
+<div class="page" id="page-3">
+  <div class="top-stripe"></div>
+  <div style="display:flex;flex-direction:column;height:100%;justify-content:space-between;">
+    <div class="header-card" style="flex-shrink:0;margin-bottom:0;">
+      <span class="hc-label">AXROSSとは</span><div class="hc-div"></div>
+      <h2>AIで業務を自動化し、リソースの上限を突破する</h2>
+    </div>
+    <div style="padding:16px 32px;background:var(--navy);border-radius:10px;text-align:center;flex-shrink:0;">
+      <div style="font-family:var(--font-heading);font-size:19px;font-weight:700;color:#fff;line-height:1.65;">
+        リソースを気にせず、<span style="color:var(--orange);">理想を実現できる</span>仕組みを作ります。
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;">
+      <div style="background:var(--card);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:10px;">
+        <div style="width:36px;height:36px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        </div>
+        <div style="font-family:var(--font-heading);font-size:13.5px;font-weight:700;color:var(--text-main);">売上UP施策の充実</div>
+        <div style="font-size:12px;color:var(--text-body);line-height:1.65;">リソースの問題を解決することで、自社メディアでの発信や新規集客導線の構築など、今までできなかった営業施策を形にすることができます。</div>
+      </div>
+      <div style="background:var(--card);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:10px;">
+        <div style="width:36px;height:36px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div style="font-family:var(--font-heading);font-size:13.5px;font-weight:700;color:var(--text-main);">内部リソースの拡大</div>
+        <div style="font-size:12px;color:var(--text-body);line-height:1.65;">人を増やすのではなく、1人あたりの生産性を増やします。AIがアシスタントの役割を担うことで、1人でもチームと同じ成果を出せる仕組みを作ります。</div>
+      </div>
+      <div style="background:var(--card);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:10px;">
+        <div style="width:36px;height:36px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        </div>
+        <div style="font-family:var(--font-heading);font-size:13.5px;font-weight:700;color:var(--text-main);">能力の底上げ</div>
+        <div style="font-size:12px;color:var(--text-body);line-height:1.65;">AIによるナレッジの体系化や業務プロセスの標準化により、属人的でバラバラだった意思決定の精度やアウトプットの質が底上げされます。</div>
+      </div>
+    </div>
+    <div style="padding:14px 24px;background:var(--warn-bg);border-left:4px solid var(--orange);border-radius:0 8px 8px 0;font-size:14px;font-weight:700;color:var(--text-main);flex-shrink:0;">
+      3つの変化が重なったとき、事業は一段階上のステージへ進みます。
+    </div>
+  </div>
+</div>
+
+<!-- PAGE 4: AXROSSという第三の選択肢 -->
+<div class="page" id="page-4">
+  <div class="top-stripe"></div>
+  <div class="header-card" style="margin-bottom:36px;"><span class="hc-label">なぜAXROSSか</span><div class="hc-div"></div><h2>AXROSSという「第三の選択肢」</h2></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+    <div style="border-radius:10px;overflow:hidden;border:1.5px solid var(--border);">
+      <div style="background:var(--card);padding:12px 16px;text-align:center;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.1em;color:var(--text-caption);margin-bottom:2px;">OPTION A</div>
+        <div style="font-family:var(--font-heading);font-size:15px;font-weight:700;color:var(--text-body);">AIコンサルタント</div>
+      </div>
+      <div style="padding:14px 16px;background:#fff;">
+        <div style="font-size:11.5px;color:var(--text-body);line-height:1.8;display:flex;flex-direction:column;gap:8px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>費用感</span><span style="font-weight:700;color:var(--text-main);">高め</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>カスタマイズ</span><span style="font-weight:700;color:#9B9B9B;">部分的</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>実装・定着</span><span style="font-weight:700;color:#C0392B;">✕ 対象外が多い</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>小規模対応</span><span style="font-weight:700;color:#C0392B;">✕</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>伴走サポート</span><span style="font-weight:700;color:#9B9B9B;">一部のみ</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="border-radius:10px;overflow:hidden;border:1.5px solid var(--border);">
+      <div style="background:var(--card);padding:12px 16px;text-align:center;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.1em;color:var(--text-caption);margin-bottom:2px;">OPTION B</div>
+        <div style="font-family:var(--font-heading);font-size:15px;font-weight:700;color:var(--text-body);">SaaS / AIツール</div>
+      </div>
+      <div style="padding:14px 16px;background:#fff;">
+        <div style="font-size:11.5px;color:var(--text-body);line-height:1.8;display:flex;flex-direction:column;gap:8px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>費用感</span><span style="font-weight:700;color:var(--text-main);">安め</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>カスタマイズ</span><span style="font-weight:700;color:#C0392B;">✕ 不可</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>実装・定着</span><span style="font-weight:700;color:#C0392B;">✕ 自力のみ</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>小規模対応</span><span style="font-weight:700;color:#27AE60;">○</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>伴走サポート</span><span style="font-weight:700;color:#C0392B;">✕</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="border-radius:10px;overflow:hidden;border:2px solid var(--orange);box-shadow:0 4px 24px rgba(224,123,60,0.15);">
+      <div style="background:var(--orange);padding:12px 16px;text-align:center;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.1em;color:rgba(255,255,255,0.75);margin-bottom:2px;">第三の選択肢</div>
+        <div style="font-family:var(--font-heading);font-size:15px;font-weight:700;color:#fff;">AXROSS</div>
+      </div>
+      <div style="padding:14px 16px;background:#fff;">
+        <div style="font-size:11.5px;color:var(--text-body);line-height:1.8;display:flex;flex-direction:column;gap:8px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>費用感</span><span style="font-weight:700;color:var(--orange);">規模に合わせて柔軟に</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>カスタマイズ</span><span style="font-weight:700;color:#27AE60;">✓ フルオーダー</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>実装・定着</span><span style="font-weight:700;color:#27AE60;">✓ 一気通貫</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>小規模対応</span><span style="font-weight:700;color:#27AE60;">✓ 全業種OK</span></div>
+          <div style="height:1px;background:var(--border);"></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;"><span>伴走サポート</span><span style="font-weight:700;color:#27AE60;">✓ 定着まで</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top:36px;padding:12px 20px;background:var(--warn-bg);border-left:4px solid var(--orange);border-radius:0 8px 8px 0;font-size:13.5px;font-weight:700;color:var(--text-main);">
+    コンサルの「専門性・伴走サポート」× SaaSの「スピード・手の届きやすさ」を両立したのが AXROSS です。
+  </div>
+</div>
+
+<!-- PAGE 5: 活用イメージ -->
+<div class="page" id="page-5">
+  <div class="top-stripe"></div>
+  <div class="header-card" style="margin-bottom:28px;">
+    <span class="hc-label">活用イメージ</span><div class="hc-div"></div>
+    <h2>こんな業務課題を解決します</h2>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;">
+
+    <div style="background:var(--card);border-radius:10px;padding:20px;display:flex;flex-direction:column;">
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--orange);margin-bottom:10px;">CASE 01</div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:38px;height:38px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div style="font-family:var(--font-heading);font-size:13px;font-weight:700;color:var(--text-main);line-height:1.4;">営業・顧客対応<br>の自動化</div>
+      </div>
+      <div style="font-size:11.5px;color:var(--text-body);line-height:1.65;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border);">「問い合わせ返信が翌日になる」「商談後のフォローを忘れることがある」「スピードで競合に負けている」</div>
+      <div style="margin-top:auto;">
+        <div style="font-size:10.5px;font-weight:700;color:var(--orange);margin-bottom:5px;">AXROSSで解決</div>
+        <div style="font-size:12px;color:var(--text-main);font-weight:500;line-height:1.65;">問い合わせへの即時自動返信、商談後のお礼・フォローメールを自動送信。対応スピードで差をつける。</div>
+      </div>
+    </div>
+
+    <div style="background:var(--card);border-radius:10px;padding:20px;display:flex;flex-direction:column;">
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--orange);margin-bottom:10px;">CASE 02</div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:38px;height:38px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div style="font-family:var(--font-heading);font-size:13px;font-weight:700;color:var(--text-main);line-height:1.4;">日常業務を<br>AI秘書に任せる</div>
+      </div>
+      <div style="font-size:11.5px;color:var(--text-body);line-height:1.65;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border);">「秘書がいたら...と思っている」「タスクの抜け漏れが怖い」「日報を書く時間すら惜しい」</div>
+      <div style="margin-top:auto;">
+        <div style="font-size:10.5px;font-weight:700;color:var(--orange);margin-bottom:5px;">AXROSSで解決</div>
+        <div style="font-size:12px;color:var(--text-main);font-weight:500;line-height:1.65;">LINEで「〇〇やる」と送るだけでタスク登録。今日の予定確認も日報の自動生成も、話しかけるだけで完結。</div>
+      </div>
+    </div>
+
+    <div style="background:var(--card);border-radius:10px;padding:20px;display:flex;flex-direction:column;">
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--orange);margin-bottom:10px;">CASE 03</div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:38px;height:38px;background:var(--navy);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div style="font-family:var(--font-heading);font-size:13px;font-weight:700;color:var(--text-main);line-height:1.4;">毎週の定型作業を<br>自動化する</div>
+      </div>
+      <div style="font-size:11.5px;color:var(--text-body);line-height:1.65;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border);">「毎週同じ集計をしている」「会議のたびに議事録を書く」「リマインドを手動で送るのが面倒」</div>
+      <div style="margin-top:auto;">
+        <div style="font-size:10.5px;font-weight:700;color:var(--orange);margin-bottom:5px;">AXROSSで解決</div>
+        <div style="font-size:12px;color:var(--text-main);font-weight:500;line-height:1.65;">週次レポート・議事録・定期通知を自動生成。毎週消えていた数時間が、経営の仕事に戻ってくる。</div>
+      </div>
+    </div>
+
+  </div>
+  <div style="margin-top:28px;padding:12px 20px;background:var(--warn-bg);border-left:4px solid var(--orange);border-radius:0 8px 8px 0;font-size:13.5px;font-weight:700;color:var(--text-main);">
+    あなたのビジネスにも、同じ仕組みを作れます。
+  </div>
+</div>
+
+<!-- PAGE 5: サービス概要 -->
+<div class="page" id="page-6">
+  <div class="top-stripe"></div>
+  <div style="display:flex;flex-direction:column;height:100%;justify-content:space-between;">
+
+    <div class="header-card" style="flex-shrink:0;margin-bottom:0;">
+      <span class="hc-label">サービス概要</span><div class="hc-div"></div>
+      <h2>AI顧問を軸に、開発まで一気通貫で対応します</h2>
+    </div>
+
+    <div style="display:grid;grid-template-columns:3fr 2fr;gap:12px;flex-shrink:0;">
+
+      <!-- AI顧問 メインカード -->
+      <div style="background:var(--navy);border-radius:12px;padding:24px 28px;display:flex;flex-direction:column;gap:18px;">
+
+        <div style="display:flex;flex-direction:column;gap:5px;">
+          <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:rgba(255,255,255,0.35);">メインプラン</div>
+          <div style="font-family:var(--font-heading);font-size:22px;font-weight:700;color:#fff;line-height:1;">AI顧問</div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:5px;">
+          <div style="font-size:10px;font-weight:700;color:#fff;background:rgba(255,255,255,0.1);padding:4px 10px;border-radius:4px;white-space:nowrap;">ヒアリング</div>
+          <div style="color:rgba(255,255,255,0.25);font-size:11px;">→</div>
+          <div style="font-size:10px;font-weight:700;color:#fff;background:rgba(255,255,255,0.1);padding:4px 10px;border-radius:4px;white-space:nowrap;">AI活用提案</div>
+          <div style="color:rgba(255,255,255,0.25);font-size:11px;">→</div>
+          <div style="font-size:10px;font-weight:700;color:#fff;background:rgba(255,255,255,0.1);padding:4px 10px;border-radius:4px;white-space:nowrap;">実装・定着サポート</div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div style="display:flex;align-items:flex-start;gap:10px;">
+            <span style="width:5px;height:5px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:5px;"></span>
+            <span style="font-size:12px;color:rgba(255,255,255,0.75);line-height:1.6;">月次MTG（事業課題の整理・優先度決め・進捗確認）</span>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:10px;">
+            <span style="width:5px;height:5px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:5px;"></span>
+            <span style="font-size:12px;color:rgba(255,255,255,0.75);line-height:1.6;">チャット相談（月内いつでも対応）</span>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:10px;">
+            <span style="width:5px;height:5px;border-radius:50%;background:var(--orange);flex-shrink:0;margin-top:5px;"></span>
+            <span style="font-size:12px;color:rgba(255,255,255,0.75);line-height:1.6;">売上に直結する業務へのAI活用提案</span>
+          </div>
+        </div>
+
+        <div style="padding-top:18px;border-top:1px solid rgba(255,255,255,0.1);margin-top:auto;">
+          <div style="height:28px;display:flex;align-items:center;justify-content:space-between;">
+            <div style="font-family:var(--font-heading);font-size:21px;font-weight:700;color:#fff;">月額 10万円〜</div>
+            <div style="font-size:10px;font-weight:700;color:var(--orange);border:1px solid var(--orange);padding:3px 8px;border-radius:4px;letter-spacing:0.06em;">先着5社限定</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右カラム: システム開発 -->
+      <div style="background:var(--card);border-radius:12px;padding:24px 24px;display:flex;flex-direction:column;gap:18px;">
+
+        <div style="display:flex;flex-direction:column;gap:5px;">
+          <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--text-caption);">オプション</div>
+          <div style="font-family:var(--font-heading);font-size:22px;font-weight:700;color:var(--text-main);line-height:1;">システム開発</div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:5px;">
+          <div style="font-size:10px;font-weight:700;color:var(--text-body);background:rgba(138,154,176,0.15);padding:4px 8px;border-radius:4px;">開発</div>
+          <div style="color:var(--border);font-size:11px;">→</div>
+          <div style="font-size:10px;font-weight:700;color:var(--text-body);background:rgba(138,154,176,0.15);padding:4px 8px;border-radius:4px;">現場導入</div>
+          <div style="color:var(--border);font-size:11px;">→</div>
+          <div style="font-size:10px;font-weight:700;color:var(--orange);background:rgba(224,123,60,0.1);padding:4px 8px;border-radius:4px;">保守</div>
+        </div>
+
+        <div style="font-size:12px;color:var(--text-body);line-height:1.75;">AI顧問でのヒアリング・設計をもとに、必要に応じてシステム開発まで対応。開発から現場導入まで一気通貫、保守・アップデートも含めてサポートします。</div>
+
+        <div style="padding-top:18px;border-top:1px solid var(--border);margin-top:auto;">
+          <div style="height:28px;display:flex;align-items:center;">
+            <div style="font-size:11px;color:var(--text-caption);">費用はシステムの内容によりお見積もりします。</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="flex-shrink:0;padding:12px 20px;background:var(--warn-bg);border-left:4px solid var(--orange);border-radius:0 8px 8px 0;font-size:13.5px;font-weight:700;color:var(--text-main);">
+      まずはAI顧問からスタート。<span style="font-weight:400;color:var(--text-body);">必要に応じてシステム開発をご提案します。</span>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- PAGE 7: CTA -->
+<div class="page" id="page-7" style="padding:0;overflow:hidden;">
+  <div style="display:grid;grid-template-columns:1fr 1px 1fr;height:540px;">
+    <div style="background:var(--navy);padding:52px 48px 52px 60px;display:flex;flex-direction:column;justify-content:center;">
+      <div style="font-family:var(--font-heading);font-size:11px;font-weight:700;letter-spacing:0.5em;color:rgba(255,255,255,0.25);margin-bottom:24px;">AXROSS</div>
+      <div style="width:32px;height:3px;background:var(--orange);border-radius:2px;margin-bottom:20px;"></div>
+      <h2 style="font-family:var(--font-heading);font-size:26px;font-weight:700;color:#fff;line-height:1.6;margin-bottom:14px;">あなたの事業に合った<br>AI活用を、一緒に考えます。</h2>
+      <p style="font-size:13px;color:rgba(255,255,255,0.5);line-height:1.85;margin-bottom:24px;">現状ヒアリングから最適なプランのご提案まで、<br>無料でお話しします。</p>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div style="display:flex;align-items:center;gap:8px;"><span style="width:5px;height:5px;border-radius:50%;background:var(--orange);display:inline-block;flex-shrink:0;"></span><span style="font-size:11.5px;font-weight:600;color:rgba(255,255,255,0.65);">相談・見積もり無料</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="width:5px;height:5px;border-radius:50%;background:var(--orange);display:inline-block;flex-shrink:0;"></span><span style="font-size:11.5px;font-weight:600;color:rgba(255,255,255,0.65);">強引な営業は一切しません</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="width:5px;height:5px;border-radius:50%;background:var(--orange);display:inline-block;flex-shrink:0;"></span><span style="font-size:11.5px;font-weight:600;color:rgba(255,255,255,0.65);">全業種・規模問わず対応します</span></div>
+      </div>
+    </div>
+    <div style="background:rgba(27,45,69,0.06);"></div>
+    <div style="background:var(--bg);padding:52px 48px;display:flex;flex-direction:column;justify-content:center;gap:14px;">
+      <div style="background:var(--orange);border-radius:12px;padding:22px 24px;text-align:center;">
+        <div style="font-size:11px;font-weight:700;color:rgba(255,255,255,0.7);letter-spacing:0.08em;margin-bottom:10px;">まずはこちらから</div>
+        <a href="https://lin.ee/S75iv4S" style="display:block;background:#fff;color:var(--orange);font-family:var(--font-heading);font-size:16px;font-weight:700;padding:14px 24px;border-radius:6px;text-decoration:none;letter-spacing:0.04em;">LINEで気軽に相談する</a>
+      </div>
+      <div style="background:var(--card);border-radius:8px;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;">
+        <span style="font-size:12.5px;color:var(--text-body);">日程調整で予約する</span>
+        <a href="https://timerex.net/s/m.yuuki0224_a294/6fe32762" style="font-size:12.5px;font-weight:700;color:var(--orange);text-decoration:none;">タイムレックスで予約 →</a>
+      </div>
+      <div style="background:var(--card);border-radius:8px;padding:14px 20px;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:var(--text-caption);margin-bottom:6px;">CONTACT</div>
+        <div style="font-size:14px;font-weight:700;color:var(--text-main);margin-bottom:2px;">松尾 侑樹（まつお ゆうき）</div>
+        <a href="mailto:m.yuuki0224@gmail.com" style="font-size:12px;color:var(--text-body);text-decoration:underline;">m.yuuki0224@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
